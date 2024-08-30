@@ -36,7 +36,7 @@ class CardSelectionVC: UIViewController {
     
     
     @objc func getRandomImage(){
-        cardImageView.image = cards.randomElement() ?? UIImage(named: "KH")
+        cardImageView.image = cards.randomElement() ?? UIImage(named: "QH")
     }
     
 
