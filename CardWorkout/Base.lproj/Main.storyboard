@@ -31,7 +31,7 @@
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <buttonConfiguration key="configuration" style="plain" image="stop.circle" catalog="system" imagePadding="6">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Stop!">
                                             <attributes>
@@ -48,15 +48,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1c-6g-nvN">
-                                <rect key="frame" x="60" y="653.33333333333337" width="100" height="50"/>
+                                <rect key="frame" x="60" y="651" width="120" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="D8M-Cj-obf"/>
+                                    <constraint firstAttribute="width" constant="120" id="D8M-Cj-obf"/>
                                     <constraint firstAttribute="height" constant="50" id="Ekg-fO-sLa"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system" imagePadding="5">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Restart">
                                             <attributes>
@@ -73,15 +73,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQ7-28-tym">
-                                <rect key="frame" x="233" y="651" width="100" height="50"/>
+                                <rect key="frame" x="213" y="651" width="120" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="owo-NI-QNv"/>
+                                    <constraint firstAttribute="width" constant="120" id="owo-NI-QNv"/>
                                     <constraint firstAttribute="height" constant="50" id="ry6-CJ-DHa"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
+                                <buttonConfiguration key="configuration" style="plain" image="book.pages" catalog="system" imagePadding="5">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Rules">
                                             <attributes>
@@ -102,7 +102,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="k1c-6g-nvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="KhC-gT-uc5"/>
-                            <constraint firstItem="k1c-6g-nvN" firstAttribute="top" secondItem="mYL-XW-Ldq" secondAttribute="bottom" constant="42.329999999999998" id="Le0-Uz-4x7"/>
+                            <constraint firstItem="k1c-6g-nvN" firstAttribute="top" secondItem="mYL-XW-Ldq" secondAttribute="bottom" constant="40" id="Le0-Uz-4x7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uQ7-28-tym" secondAttribute="trailing" constant="60" id="MIU-j7-8jV"/>
                             <constraint firstItem="gyo-YL-qdB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PGw-3l-XdJ"/>
                             <constraint firstItem="mYL-XW-Ldq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Q3Q-Fm-Pqw"/>
@@ -176,6 +176,9 @@
     </scenes>
     <resources>
         <image name="10C" width="691" height="1056"/>
+        <image name="arrow.clockwise" catalog="system" width="113" height="128"/>
+        <image name="book.pages" catalog="system" width="107" height="128"/>
+        <image name="stop.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
